@@ -1,0 +1,3 @@
+*si no puedo compliar porque me dice que el puerto ya esta en uso cerrar vs y volverlo a abrir
+
+*para que me renderice la pagina debo poner en la barra de navegacion localhost:4200

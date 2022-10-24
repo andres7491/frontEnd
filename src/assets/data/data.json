@@ -1,0 +1,68 @@
+{
+    "nombre":"Andrés Guillermo Grinblat",
+    "posicion":"Full Stack Developer Jr",
+    "ubicacion":"Tucumán, Argentina",
+    "acerca_de": "Realicé tareas administrativas en diferentes áreas",
+    "experiencia":[{
+        "trabajo":"Administrativo",
+        "puesto":"Área de Legajos del Ministerio de Educación de la Provincia de Tucumán: de Junio 2021 a la actualidad,  Área de Novedades Salariales del Ministerio de Educación de la Provincia de Tucumán de Abril a Mayo de 2021.",
+        "inicio":"2021",
+       "fin":"2022",
+        "img": "../assets/ministerio-educacion.png"
+
+    },
+      {
+        "trabajo": "Admisión",
+        "puesto": "CAPS (Centro de Atención Primaria de Salud)",
+        "inicio": "2018",
+        "fin": "2019",
+        "img": "../assets/salud.jpg"
+
+
+      },
+      {
+
+        "trabajo": "Recepcionista",
+        "puesto": "Hotel Portal del Norte ",
+        "inicio": "2017",
+        "fin": "2018",
+        "img": "../assets/hotel.jpg"
+      }
+
+
+
+
+
+],
+
+  "educacion": [
+    {
+      "institucion": "Instituto Tecnológico Tucumán",
+      "titulo": "Auxiliar de Gestión Jurídica",
+      "año": "2019",
+      "img": "../assets/instituto-tecnologico.jpg"
+    },
+
+    {
+      "institucion": "Interaction",
+      "titulo": "Nivel Pre-Intermediate B1",
+      "año": " 2017",
+      "img": "../assets/ingles.png"
+
+    },
+    
+    {
+      "institucion": "Escuela Integral",
+      "titulo": "Economía y Gestión de las Organizaciones",
+      "año": " 2009",
+      "img": "../assets/escuela.jpg"
+    }
+
+
+  ]
+
+
+
+
+
+}

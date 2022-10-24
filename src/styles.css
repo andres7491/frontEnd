@@ -1,0 +1,136 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+ 
+}
+
+
+
+
+header img{
+    width: 5%;
+    
+}
+
+#banner{
+    
+   width: 100%;
+   height: 80vh;
+    border-radius: 5px;
+   
+}
+
+
+
+
+
+ header #logo, header p{
+
+    display: inline-block;
+}
+
+figure{
+   
+    padding-left: 40vw;
+}
+
+figure,img{
+    display: inline;
+}
+
+
+
+
+
+
+
+#foto img{
+    position: absolute;
+    top: 52vh;
+    left: 30px;
+    border: 1px green solid;
+}
+
+#img-result{
+    position: absolute;
+    top: 52vh;
+    left: 30px;
+    border: 1px green solid;
+}
+
+
+
+
+
+
+
+
+.form-file{
+margin: 19px;
+
+}
+
+#acercaDe img{
+    width: 10%;
+    border-radius: 50px;
+}
+
+.icon-pencil{
+    margin-left: 10vw;
+}
+
+#acercaDe article{
+    width: 70%;
+}
+
+
+
+
+#experiencia img{
+    width: 25%;
+ margin: 20px;
+  float: left;
+}
+
+
+
+
+ #experiencia h3, #experiencia article{
+    margin: 3vw;
+}
+
+#experiencia p{
+    margin-left: 25vw;
+}
+
+#educacion{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#educacion img{
+    width: 20%;
+ 
+  float: left;
+}
+
+
+
+
+ #educacion h3, #educacion article{
+    margin: 3vw;
+}
+
+
+
+.card{
+    margin: 20px;
+ 
+}
+
+#experiencia li{
+list-style: none;
+}

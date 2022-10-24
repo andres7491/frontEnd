@@ -1,0 +1,67 @@
+<section id="Acerca">
+    <div class="card">
+    <div class="card-body">
+        <article >
+      
+<h2>Acerca delll...</h2>
+<p>Realicé tareas administrativas en diferentes áreas</p>   
+
+<p  id="text-acercaDe"></p>
+<div>
+
+    <input id="edit-acercaDe" type="text" oninput="myFunction2(this.value)" style="display:none">
+</div>               
+
+</article>
+</div>
+</div>   
+<input type="file" id="file1" onchange="showFile(this)">
+    </section>
+       
+    
+    <script>
+        function cambiar_parrafo(){
+            document.getElementById("edit-acercaDe").style.display="block";
+            let texto = document.getElementById("text-acercaDe").innerText;
+            console.log(texto);
+        };
+    
+        function myFunction2(valor){
+            document.getElementById("text-acercaDe").innerText=valor;
+        };
+    
+        function logMessage(message){
+            console.log(message + "<br>");
+        }
+    
+        //controla si se presiono un enter
+        let textarea=document.getElementById("edit-acercaDe")
+        textarea.addEventListener('keyup',(e)=>{
+            logMessage(`Key "${e.key}" relesed[event: keyup]`);
+            if(e.key=="Enter"){
+                document.getElementById("edit-acercaDe").style.display="none";
+            }
+        });
+        
+    function showFile(input){
+        let file= input.files[0];
+        alert(`File name: ${file.name}`);//ej my.png
+        alert(`Last modified: ${file.lastModified}`);//e.g 1414242452324
+    
+        let reader = new FileReader();
+        reader.readAsText(file);
+        reader.onload = function(){
+            console.log(reader.result);
+            document.getElementById("text-acercaDe").innerText=reader.result;
+    
+        };
+    
+        reader.onerror=function(){
+            console.log(reader.error);
+        };
+    }
+    
+    
+    </script>
+      
+  
